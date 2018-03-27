@@ -1,7 +1,7 @@
 import java.util.Scanner;
 
 /*
- * My First Java Program: Poker
+ * My First Java Program (somewhat refactored): Poker
  * Game class contains main and adjudicates the flow of the program
  */
 
