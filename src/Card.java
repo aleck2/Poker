@@ -1,4 +1,4 @@
-public class Card {
+class Card {
     private Suit suit;
     private Rank rank;
 
@@ -9,5 +9,13 @@ public class Card {
 
     public String returnCardString() {
         return String.format("%s %s", rank, suit);
+    }
+
+    public Suit getSuit() {
+        return suit;
+    }
+
+    public Rank getRank() {
+        return rank;
     }
 }
